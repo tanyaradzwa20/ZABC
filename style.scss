@@ -1,0 +1,958 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
+
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	overflow-x: hidden;
+	line-height: 1;
+	font-family:'Akrobat-Bold';
+	scroll-behavior: smooth;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+////////////////////// HOMEPAGE
+section{margin-bottom: 70px;}
+h2{font-size: 36px;}
+h3{font-size: 18px;color: #F4525C;}
+h4{font-size: 24px;padding-bottom: 3px;color: white;}
+p {font-size: 24px;line-height: 1.2;}
+a {text-decoration:none;font-size: 24px;
+	&:hover{text-decoration: none;}
+}
+// NAVBAR
+.ZABC-nav{height: 150px;width: 100%;
+	.logo{height: 100px;display: flex;align-items: center;justify-content:space-between;padding: 0 60px;
+		>div{display: flex;align-items: center;width: 80%;
+			>p{color: #303960;margin: auto;}
+			.home-logo >img{width: 50px;height: 50px;}
+			>h3{padding-left: 23px;color:#13243D;font-family:'Akrobat-SemiBold';line-height:1.2;}
+		}
+		>ul{display: flex;
+			>a{width: 150px;height: 50px;color: #FFFFFF;font-size: 18px;display: flex;align-items: center;justify-content: center;border: none;}
+			.nav-btn1{background-color: #303960;}
+			.nav-btn2{background-color: #13243D;}
+		}
+	}
+	.header{height: 50px;background-color: #F8F8F8;display: flex;
+		.none-img{display: none;}
+     	>input{position: absolute;visibility: hidden;z-index: -1111;}
+        >ul{margin: auto;display: flex;
+	       >li >a{padding: 0 15px;color: #13243D;font-size: 18px;
+                &:hover{color: #F4525C;}
+		    }
+        }
+	.show-menu-btn, .hide-menu-btn{transition:0.4s;font-size: 30px;cursor: pointer;display: none;
+	   &:hover{color: grey;}}
+	.show-menu-btn{float: right;line-height: 100px;}
+  }
+}
+//START BILLBOARD
+.billboard{background-image: linear-gradient(rgba(19, 36, 61, 0.753), rgba(19, 36, 61, 0.753)), url(./img/hero-image.png);;height: 595px;display: flex;justify-content: center;align-items: center;width: 100%;;
+	h1{font-size: 64px;font-family: 'Akrobat-SemiBold';color: white;line-height: 1.1;}
+	h3{padding: 15px 35px;background-color: white;box-shadow: 0 4px 4px #DEDEDE;font-size: 20px;text-align: center;line-height: 1.3;margin: 0 0 20px 0;color: #13243D;}
+	>div >div >div>form{width: 380px;height: 100%;background-color: whitesmoke;line-height: 2;border-radius: 4px;
+		>div{text-align: center;margin-bottom:15px;
+			>input{background-color: #D9D9D9;border: none;width: 163px;border-radius: 3px;height: 30px;}
+				::placeholder{color: rgba(11, 31, 59, 0.747);padding: 5px;}
+				.bill-input{margin-right: 10px;}
+			
+			
+		}
+		>div:last-child{align-items: center;justify-content: center;display: flex;
+			>input{width: 235px;padding: 0;border-radius: 3px;margin-right: 10px;}
+			>a{width: 91px;background-color: #13243D;color: white;text-decoration: none;border-radius: 3px;font-size: 14px;height: 30px;}
+		}
+	
+	}
+}
+// END BILLBOARD
+// START ABOUT
+.about{color: #13243D;
+	p{margin-inline-start: 75px;}
+	>div >div>div:first-child{display: flex;flex-direction: column;justify-content: center;line-height:1.5;
+		>h3{border-right: 8px solid #F4525C;}
+		>h2{border-right: 8px solid #F4525C;}
+	
+	}
+		}
+// END ABOUT
+// START MEMBER
+.member{text-align: center;background: #F8F8F8;padding-top: 54px;color: #13243D;
+	>div{
+		>p{padding: 20px 0 70px;}
+		>h2{margin-top: 5px;}
+		#join-btn{color: white;background-color: #303960;font-size: 24px;width: 160px;height: 50px;border-radius: 3px;display: flex;justify-content: center;align-items: center;margin: 50px 12px 50px auto ;}
+		>div>div>div{background: #303960;color: white;height: 338px;width: 338px;justify-content: space-evenly;padding: 0 10px;
+			>p{font-size: 21px;}
+			>a>i{color:white ;}
+			.number{background-color: #F4525C;border-radius: 25px;width: 50px;height: 50px;text-align: center;display: flex;justify-content: center;align-items: center;position: absolute;top: -7%;left: -7%;}
+		}
+
+	}
+}
+// END MEMBER
+// START INVEST
+.invest{
+	>div{
+		>h2,h3,p{text-align: center;}
+		>h2{line-height: 1.3;}
+		>p{padding: 20px 0 60px;}
+		>div{
+			>div #div1{background-color: #303960;padding: 48px 60px 57px;color: white;height: 100%;
+				>h2{line-height: 1.2;margin-bottom: 35px;;
+				>span{ color: #F4525C;}}
+				>a{padding:10px 18px;color: white;border: 2px solid white;}
+			}
+			 #div2{background-color: #13243D;
+				  >form{padding: 37px 45px;
+					>input{width: 220px;height: 50px;border-radius: 4px;border: none;}
+					.details{margin-right: 15px;}
+					>textarea{width: 460px;height: 240px;margin-top: 20px;border-radius: 4px;border: none;}
+					::placeholder{padding: 9px;color: #B0B0B0;}
+					>a{width: 92px;height: 36px;color: white;background-color: #303960;display: flex;align-items: center;justify-content: center;border-radius: 4px;position: absolute;top: 78%;left: 72%;font-size: 21px;;
+					}
+				}
+			}
+
+		}
+	}
+}
+// END INVEST
+// START EVENT
+.event{
+	>div{
+		>div{
+			>div:first-of-type{line-height: 1.2;}
+			>div{position: relative;
+				#event-img1{outline: 1px solid #FFFFFF;outline-offset: -10px;width: 100%;;outline-style: double;height: 381px;}
+				.events-inner1{position: absolute;top: 8%;left: 20%;color: white;line-height: 1.5;
+					>h3{color: white;}
+				}
+			}
+			>div:last-child{
+					.inner1{ background-image:linear-gradient(rgba(0, 0, 0, 0.555)),url(img/event2.png);height: 180px;border-radius: 3px;;
+					      h3{color: white;}}
+					.inner1-2{ background-image: linear-gradient(rgba(0, 0, 0, 0.555)),url(img/event3.png);height: 180px;margin-top: 22px;}
+						>div{outline: 1px solid #FFFFFF;outline-offset: -8px;outline-style: double;line-height: 1.5;color: white;;padding: 25px 56px;}
+					}
+				}
+			}
+		}
+// END EVENT
+// START COMMUNITY
+.community{background-color: #F8F8F8;
+	>h2{text-align: center;padding: 35px 0;}
+	>div{position: relative;
+		>form{position: absolute;top: 25%;left: 60%;width:380px;height: 220px;background-color: whitesmoke;line-height: 2;border-radius: 4px;
+			>h3{padding: 15px 35px;background-color: white;box-shadow: 0 4px 4px #DEDEDE;font-size: 20px;text-align: center;line-height: 1.3;margin: 0 0 20px 0;color: #13243D;}
+
+			>div{text-align: center;margin-bottom:15px;
+				>input{background-color: #D9D9D9;border: none;width: 163px;border-radius: 3px;height: 30px;}
+					::placeholder{color: #13243D;padding: 5px;}
+					.bill-input{margin-right: 10px;}
+				
+				
+			}
+			>div:last-child{align-items: center;justify-content: center;display: flex;
+				>input{width: 235px;padding: 0;border-radius: 3px;margin-right: 10px;}
+				>a{width: 91px;background-color: #13243D;color: white;text-decoration: none;border-radius: 3px;font-size: 14px;height: 30px;}
+			}
+		
+		}
+	}
+}
+// END COMMUNITY
+// START MAILING 
+.mailing{
+	>div{
+		>div{
+			>div:first-child{line-height: 1.2;}
+			>div:last-child{margin-top: auto;display: flex;;
+				>input{background-color: #303960;border: none;height: 50px;width: 300px;padding: 0;}
+				::placeholder{padding-left: 15px;color: white;}
+				>a{background-color: #13243D;height: 50px;width: 70px;display: flex;align-items: center;justify-content: center;color: white;font-size: 21px;}
+			}
+		}
+	}
+}
+// END MAILIND
+// START FOOTER
+.footer{background-color: #13243D;padding: 56px 0 80px;;
+	>div{
+		>div{padding: 0 95px;
+			>div{display: flex;flex-direction: column;line-height: 1.3;
+				>h4{padding-bottom: 13px;}
+				>a{font-size: 14px;color: white;}
+			}
+		}
+		>p{color: white;text-align: center;font-size: 14px;padding-top: 79px;}
+	}
+}
+// END FOOTER
+//////////////////END HOMEPAGE
+/////////////////STAR COMPANIES PAGE
+.companies{
+	>div >div{
+		>div:first-child{margin-bottom: 65px;
+			>h2{color:#363636 ;margin-top: 22px;}
+		}
+		.companies-inner{margin-top: 63px;}
+		>div >form{margin: 22px 56px 0;
+			select{font-size: 24px;width: 290px;height:50px;padding: 0 3px;}
+		}
+		>div .card{background-color: #303960;width: 300px;height: 350px;display: flex;justify-content: space-evenly;padding: 0 24px;margin-bottom: 65px;;
+			>img{height:72px ;width:252px;object-fit:scale-down;}
+			>h3{color: white;line-height: 1.3;}
+			>a{background: white;width: 144px;height: 42px;margin: 0 auto;display: flex;justify-content: center;align-items: center;color: #303960;font-size: 18px;}
+			.puma-logo{width:235px ;height:41px;}
+			.zuva-logo{width: 211px;height: 97px;}
+
+		}
+	}
+}
+////////////////END COMPANIES PAGE
+///////////////START EVENTS PAGE
+// START EVENT
+.events-held{
+	>div{
+		>div{
+			>div:first-child{margin:63px 0;}
+			>div{
+				.coming-event{background-image:linear-gradient(rgba(0, 0, 0, 0.685)),url(img/event1.png);height: 467px;background-repeat: no-repeat;background-size: cover;
+						>div{position: relative;top:0;left:0;padding: 61px 48px 98px 53px;outline: 1px solid #FFFFFF;outline-offset: -15px;outline-style: double;height: 100%;
+							>h3{margin: 15px 0;}
+							>p{color:#F4525C;font-size: 18px;line-height: 1.3;
+								>a{color:#F4525C;font-size: 18px;text-decoration: underline;}
+							}
+						}
+					}
+				}
+			>div:last-child{
+				>div{padding: 55px 76px;}
+					.inner1{height: 221px;background-repeat: no-repeat;background-size: cover;}
+					.inner1-2{height: 221px;background-repeat: no-repeat;background-size: cover;}
+					}
+				}
+			}
+		}
+//END EVENT
+// START MINING
+.mining{
+	 >div{
+		 >h2{margin: 5px 0;}
+		>div{margin-top: 63px;
+			>div{position: relative;margin-bottom: 48px;height: 275px;
+				>p{padding: 25px 59px 0;font-size: 19px;}
+				>img{width: 100%;height: 100%;object-fit: fill;outline: 2px solid #FFFFFF;outline-offset: -11px;}
+				>div{position: absolute;height: 100%;width: 95%;top:0;left:0;line-height: 1.6;padding: 60px 80px;background-color: rgba(0, 0, 0, 0.507);margin: 0 14px;color: white;
+					>h3{color: white;}
+				}
+			}
+		}
+	}
+}
+// END MINING 
+//////////////END EVENTS PAGE
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) {
+section{margin-bottom: 50px;}
+h2{font-size: 28px;}
+h3{font-size: 16px;}
+h4{font-size: 20px;padding-bottom: 3px;}
+p {font-size: 18px;}
+a {font-size: 20px;}
+.ZABC-nav{height: 100px;
+	.logo{display: none;}
+	 .header{padding: 0 25px;height: 100%;
+		.none-img{display:block;object-fit:contain;margin: auto 0;}
+	    >input:checked ~ .menu{right: 0;z-index: 123;}
+        >ul{position:fixed;padding: 50px 15px;;width: 100%;height:100vh;right:-100% ;top: 0;transition: 0.7s;background: #f8f8f8;display: flex;flex-direction: column;justify-content: space-evenly;
+	    >a{display: block;padding: 20px;color:white;
+	    	&:hover{color: maroon;}
+    	}
+	}
+	 .show-menu-btn, .hide-menu-btn{display: block;margin-left: auto;}
+     .hide-menu-btn{position: absolute;top: 35px;right: 30px;color:#13243D;}
+   } 
+}
+	// billboard
+	.billboard{height: 565px;
+		h1{font-size: 34px;margin-bottom: 65px;text-align: center;}
+		h3{font-size: 18px;padding: 10px 20px;}
+		>div >div >div>form{width:100%;margin: auto;
+			>div{text-align: center;margin-bottom:0;padding: 0 5px;;
+				>input{width: 100%;margin: 5px 0;}
+			}
+			>div:last-child{margin-bottom: 15px;
+				>input{width: 100%;}
+				>a{width: 91px;}
+			}
+		}
+	}
+	// about
+	.about{text-align: center;
+		p{margin-inline-start: 0;}
+		>div >div>div:first-child{line-height:1.2;
+			>h3{border-right: none}
+			>h2{border-right: none;
+				 &::after{content: '';width: 70px;height: 2px;background-color: red;display: flex;margin: 10px auto;}
+				}
+			}
+		}
+	// members
+	.member{padding-top: 30px;
+		.office-img{width: 100%;height: 230px;object-fit: cover;}
+		>div{margin: 0 auto;
+			>p{padding: 20px 0 50px;}
+			>h2{margin-top: 5px;}
+			#join-btn{font-size: 21px;width: 150px;height: 50px;margin:50px auto ;}
+			>div>div{display: flex;justify-content:center;
+			>div{height: 330px;width: 290px;;margin-bottom: 25px;;
+				>p{font-size: 18px;}
+				.number{top: -5%;left: -3%;}
+			}
+	
+				}		}
+	}
+	// invest
+	.invest{
+	  >div{
+		>div{
+			>div #div1{padding: 25px 15px 50px;}
+			 #div2{
+				  >form{padding: 20px 15px;
+					>input{width: 100%;}
+					.details{margin-right: 0;margin-bottom: 15px;}
+					>textarea{width: 100%;}
+					>a{height: 40px;top: 82%;left: 65%;
+					}
+				}
+			}
+
+		}
+	}
+}
+// event
+.event{
+	>div{
+		>div{
+			>div:first-of-type{text-align: center;line-height: 1.5;
+			>h2{margin-bottom: 10px;}}
+			>div{
+				#event-img1{height: 360px;margin-bottom: 20px;}}
+				}
+			}
+		}
+// community
+     .community{
+			>h2{font-size: 26px;line-height: 1.2;}
+			>div{
+				>img{width: 100%;height: 200px;object-fit: cover;}
+				>form{position: relative;top: 0;left: 0;width: 100%;line-height: 2;margin: 25px 0;
+					>h3{padding: 15px}
+				}
+			}
+		}
+// mailing
+.mailing{
+	>div{
+		>div{
+			>div:first-child{margin: 20px 0;
+				>h3{margin: 5px 0;}
+			>h2{font-size: 28px;}}
+		}
+	}
+}
+// footer
+.footer{padding: 35px 0 40px;;
+	>div{
+		>div{padding: 0 40px;
+			>div{margin-bottom: 20px;;
+				>h4{padding-bottom: 10px;}
+				>a{font-size: 15px;}
+			}
+		}
+		>p{padding-top: 25px;}
+	}
+}
+/////////////////STAR COMPANIES PAGE
+.companies{
+	>div >div{
+		>div:first-child{margin-bottom: 25px;text-align:left;flex-direction: column;
+			>h2{margin-top: 5px;}
+		}
+		>div:nth-child(2){display: block; margin: 5px;
+			>form{margin: 0;margin-bottom: 30px;text-align:left;flex-direction: column;;
+			select{font-size: 19px;width: 252px;height:50px;padding: 0 5px;}
+		}}
+		>div {display: flex;justify-content: center;
+			.card{text-align: center;
+			>h3{line-height: 1.4;}
+
+	    	}
+    	}
+	}
+}
+// START EVENT
+.events-held{
+	>div{
+		>div{
+			>div:first-child{margin:30px 0;text-align: left;}
+			>div{
+				.coming-event{height: 430px;margin-bottom: 30px;;
+						>div{padding: 45px 35px;
+						>p{font-size: 17px;}}
+					}
+				}
+			>div:last-child{
+				>div{padding: 45px 35px;}
+					.inner1{height: 200px;}
+					.inner1-2{height: 200px;}
+					}
+				}
+			}
+		}
+
+// START MINING
+.mining{
+	>div{
+		>h2{margin: 5px 0;}
+	   >div{margin-top: 8px;
+		   >div{margin-bottom:15px;height: 250px;margin-top: 30px;;
+			   >p{padding:0 10px;font-size: 18px;}
+			   >img{width: 100%;height: 100%;object-fit: fill;outline: 2px solid #FFFFFF;outline-offset: -10px;}
+			   >div{width: 92%;
+			   }
+		   }
+	   }
+   }
+}
+}
+// 
+// Small devices (landscape phones, 576px and up 767)
+@media (min-width: 568px) and (max-width: 767px) {
+section{margin-bottom: 60px;}
+h2{font-size: 28px;}
+h3{font-size: 18px;}
+h4{font-size: 20px;padding-bottom: 3px;}
+p {font-size: 18px;}
+a {font-size: 18px;}
+.ZABC-nav{height: 100px;
+	.logo{display: none;}
+	 .header{padding: 0 25px;height: 100%;
+		.none-img{display:block;object-fit:contain;margin: auto 0;}
+	    >input:checked ~ .menu{right: 0;z-index: 123;}
+        >ul{position:fixed;padding: 45px 65px 0;width: 100%;height:100vh;right:-100% ;top: 0;transition: 0.7s;background: #f8f8f8;display: flex;flex-direction: column;justify-content: space-evenly;
+	    >a{display: block;padding: 20px;color:white;
+	    	&:hover{color: maroon;}
+    	}
+	}
+	 .show-menu-btn, .hide-menu-btn{display: block;margin-left: auto;}
+     .hide-menu-btn{position: absolute;top: 35px;right: 30px;color:#13243D;}
+   } 
+}
+	// billboard
+	.billboard{height: 565px;
+		h1{font-size: 40px;margin-bottom: 65px;text-align: center;}
+		h3{font-size: 18px;padding: 20px 30px;}
+		>div >div >div>form{width:80%;margin: auto;
+			>div{text-align: center;margin-bottom:0;padding: 0 5px;;
+				>input{width: 100%;margin: 5px 0;}
+			}
+			>div:last-child{margin-bottom: 15px;
+				>input{width: 100%;}
+				>a{width: 91px;}
+			}
+		}
+	}
+	// about
+	.about{text-align: center;
+		p{margin-inline-start: 0;}
+		>div >div>div:first-child{line-height:1.2;
+			>h3{border-right: none}
+			>h2{border-right: none;
+				 &::after{content: '';width: 70px;height: 2px;background-color: red;display: flex;margin: 10px auto;}
+				}
+			}
+		}
+	// members
+	.member{padding-top: 30px;
+		.office-img{width: 100%;height: 275px;object-fit: cover;}
+		>div{margin: 0 auto;
+			>p{padding: 20px 0 50px;}
+			>h2{margin-top: 5px;}
+			#join-btn{font-size: 21px;width: 150px;height: 50px;margin: 0 auto 50px;}
+			>div>div{display: flex;justify-content:center;
+			>div{height: 330px;width: 430px;;margin-bottom: 40px;
+				>h2{font-size: 35px;}
+				>p{font-size: 18px;padding: 0 30px;}
+				.number{top: -5%;left: -3%;}
+			}
+		}
+	}
+}
+	// invest
+	.invest{
+	  >div{
+		>div{
+			>div #div1{padding: 40px 15px 70px;
+				>h2{margin-bottom: 50px;}
+			}
+			 #div2{
+				  >form{padding: 20px 15px;
+					>input{width: 100%;}
+					.details{margin-right: 0;margin-bottom: 15px;}
+					>textarea{width: 100%;}
+					>a{height: 40px;top: 82%;left: 76%;font-size: 19px;
+					}
+				}
+			}
+
+		}
+	}
+}
+// event
+.event{
+	>div{
+		>div{
+			>div:first-of-type{text-align: center;line-height: 1.5;
+			>h2{margin-bottom: 15px;}}
+			>div{
+				.inner1{background-repeat: no-repeat;background-size: cover;background-position: bottom;}
+				#event-img1{height: 360px;margin-bottom: 20px;}}
+				}
+			}
+		}
+// community
+     .community{
+			>h2{font-size: 28px;line-height: 1.2;}
+			>div{
+				>img{width: 100%;height: 320px;object-fit: cover;}
+				>form{position: absolute;top: 20%;left: 30%;width:380px;height: 220px;background-color: whitesmoke;line-height: 2;border-radius: 4px;
+					>h3{font-size: 19px;}
+				}
+				
+			}
+		}
+// mailing
+.mailing{
+	>div{
+		>div{
+			>div:first-child{margin: 20px 0;
+				>h3{margin: 5px 0;}
+			>h2{font-size: 28px;}}
+		}
+	}
+}
+// footer
+.footer{padding: 35px 0 40px;
+	>div{
+		>div{padding: 0 10px;flex-wrap: nowrap;;
+			>div{margin-bottom: 20px;
+				>a{font-size: 14px;}
+			}
+		}
+		>p{padding-top: 10px;}
+	}
+}
+/////////////////STAR COMPANIES PAGE
+.companies{
+	>div >div{
+		>div:first-child{margin-bottom: 25px;text-align:left;flex-direction: column;
+			>h2{margin-top: 5px;}
+		}
+		>div:nth-child(2){display: block; margin: 5px;
+			>form{margin: 0;margin-bottom: 30px;text-align:left;flex-direction: column;;
+			select{font-size: 19px;width: 252px;height:50px;padding: 0 5px;}
+		}}
+		>div{
+			.card{text-align: center;width: 500px;
+	    	}
+    	}
+	}
+}
+// START EVENT
+.events-held{
+	>div{
+		>div{
+			>div:first-child{margin:30px 0;text-align: left;}
+			>div{
+				.coming-event{height: 400px;margin-bottom: 30px;;
+						>div{padding: 45px 35px;}
+					}
+				}
+			>div:last-child{
+				>div{padding: 45px 35px;}
+					.inner1{height: 200px;}
+					.inner1-2{height: 200px;}
+					}
+				}
+			}
+		}
+// START MINING
+.mining{
+	>div{
+		>h2{margin: 5px 0;}
+	   >div{margin-top: 5px;
+		   >div{margin-bottom:15px;height: 250px;margin-top: 30px;;
+			   >p{padding:0 10px;font-size: 18px;}
+			   >img{width: 100%;height: 100%;object-fit: fill;outline: 2px solid #FFFFFF;outline-offset: -10px;}
+			   >div{width: 95%;
+			   }
+		   }
+	   }
+   }
+}
+
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) {
+section{margin-bottom: 70px;}
+h2{font-size: 28px;}
+h3{font-size: 16px;}
+h4{font-size: 20px;padding-bottom: 3px;}
+p {font-size: 18px;}
+a {font-size: 20px;}
+// start nav
+.ZABC-nav{
+	.logo{padding: 0 30px;
+		
+		>ul{
+			>a{width: 130px;height: 45px;font-size: 15px;}
+		}
+	}
+    .header{height: 50px;background-color: #F8F8F8;display: flex;
+     	>input{position: absolute;visibility: hidden;z-index: -1111;}
+        >ul{margin: auto;display: flex;
+	       >li >a{padding: 0 8px;color: #13243D;font-size: 15px;
+                &:hover{color: #F4525C;}
+		    }
+        }
+	.show-menu-btn, .hide-menu-btn{transition:0.4s;font-size: 30px;cursor: pointer;display: none;
+	   &:hover{color: grey;}}
+	.show-menu-btn{float: right;line-height: 100px;}
+  }
+}
+	// billboard
+	.billboard{height: 500px;
+		h1{font-size: 46px;margin-bottom: 65px;}
+		h3{font-size: 18px;padding: 10px 20px;}
+		>div >div >div>form{width:100%;margin: auto;
+			>div{text-align: center;margin-bottom:0;padding: 0 5px;;
+				>input{width: 100%;margin: 5px 0;}
+			}
+		}
+	}
+	// START ABOUT
+   .about{color: #13243D;
+	  p{margin-inline-start: 15px;}
+	  >div >div>div:first-child{line-height:1.3;
+		  >h3{border-right: 6px solid #F4525C;}
+		  >h2{border-right: 6px solid #F4525C;}
+	
+	}
+		}
+	// members
+	.member{padding-top: 30px;
+		>div{
+			>p{padding: 20px 0 40px;}
+			#join-btn{font-size: 20px;margin:50px auto ;}
+			>div>div{display: flex;justify-content:center;
+			>div{height: 275px;width: 338px;
+				>p{font-size: 15px;}
+				.number{top: -5%;left: -3%;}
+			}
+		}
+	}
+	>img{width: 100%;}
+}
+	// invest
+	.invest{
+	    >div{
+		    >p{padding: 10px 0 45px;}
+		    >div{
+			    >div #div1{padding: 25px 15px;
+			    	>h2{margin-bottom: 80px;font-size: 30px;}
+			}
+			 #div2{
+				  >form{padding: 20px 15px;
+					>input{width: 100%;}
+					.details{margin-right: 0;margin-bottom: 15px;}
+					>textarea{width: 100%;height: 185px;}
+					>a{height: 35px;top: 82%;left: 65%;font-size: 18px;;
+					}
+				}
+			}
+		}
+	}
+}
+// event
+.event{
+	>div{
+		>div{
+			>div:first-of-type{
+			>h2{margin-bottom: 0;font-size: 24px;}}
+			>div{
+				h2{font-size: 23px;}
+				#event-img1{height: 315px;}
+				}
+			>div:last-child{
+				.inner1{height: 145px;
+				.inner1-2{height: 145px;}
+				>div{padding: 0}
+				}
+			}
+		}
+	}
+}	
+// START COMMUNITY
+.community{
+	img{width: 100%;}
+	>h2{padding: 25px 0;}
+	>div{position: relative;
+		>form{top: 28%;left: 48%;
+		}
+	}
+}
+// mailing
+.mailing{
+	>div{
+		>div{
+			>div:first-child{margin: 0;
+				>h3{margin: 5px 0;}
+			    >h2{font-size: 22px;}}
+			>div:last-child{margin-left: auto;}
+		}
+	}
+}
+////////////////STAR COMPANIES PAGE
+.companies{
+	>div >div{
+		>div:first-child{margin-bottom: 65px;
+			>h2{color:#363636 ;margin-top: 22px;}
+		}
+		.companies-inner{margin-top: 63px;}
+		>div >form{margin: 22px 56px 0;
+			select{font-size: 24px;width: 290px;height:50px;padding: 0 3px;}
+		}
+		>div .card{width: 200px;height: 300px;padding: 0 15px;text-align: center;;
+			>img, .zuva-logo{width: 170px;height: 60px;}		
+		}
+	}
+}
+// START EVENT
+.events-held{
+	>div{
+		>div{
+			>div:first-child{margin:30px 0;}
+			>div{
+				.coming-event{height: 420px;
+						>div{padding: 45px 25px 60px 30px;
+							>h3{margin: 15px 0;}
+							>p{font-size: 18px;
+							}
+						}
+					}
+				}
+			>div:last-child{
+				>div{padding: 35px 55px;}
+					.inner1{height: 200px;}
+					.inner1-2{height: 200px;}
+					}
+				}
+			}
+		}
+//END EVENT
+// START MINING
+.mining{
+	 >div{
+		 >h2{margin: 5px 0;}
+		>div{margin-top: 63px;
+			>div{position: relative;margin-bottom: 63px;height: 275px;
+				>p{padding: 15px 10px;font-size: 17px;}
+				>img{width: 100%;height: 100%;object-fit: fill;outline: 2px solid #FFFFFF;outline-offset: -10px;}
+				>div{width: 92%;padding: 45px;
+				}
+			}
+		}
+	}
+}
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) {
+section{margin-bottom: 60px;}
+h2{font-size: 28px;}
+h3{font-size: 16px;}
+h4{font-size: 20px;padding-bottom: 3px;}
+p {font-size: 18px;}
+a {font-size: 20px;}
+	// billboard
+	.billboard{height: 500px;
+		h1{font-size: 46px;margin-bottom: 65px;}
+		h3{font-size: 18px;padding: 10px 20px;}
+		>div >div >div>form{width:100%;margin: auto;
+			>div{text-align: center;margin-bottom:0;padding: 0 5px;;
+				>input{width: 100%;margin: 5px 0;}
+			}
+		}
+	}
+	// START ABOUT
+   .about{color: #13243D;
+	  p{margin-inline-start: 15px;}
+	  >div >div>div:first-child{line-height:1.3;
+		  >h3{border-right: 6px solid #F4525C;}
+		  >h2{border-right: 6px solid #F4525C;}
+	
+	}
+		}
+	// members
+	.member{padding-top: 30px;
+		>div{
+			>p{padding: 20px 0 40px;}
+			#join-btn{font-size: 20px;margin:50px auto ;}
+			>div>div{display: flex;justify-content:center;
+			>div{height: 275px;width: 338px;
+				>p{font-size: 15px;}
+				.number{top: -5%;left: -3%;}
+			}
+		}
+	}
+	>img{width: 100%;}
+}
+	// invest
+	.invest{
+	    >div{
+		    >p{padding: 10px 0 45px;}
+		    >div{
+			    >div #div1{padding: 25px 15px;
+			    	>h2{margin-bottom: 60px;font-size: 31px;}
+			}
+			 #div2{
+				  >form{padding: 20px 15px;
+					>input{width: 100%;}
+					.details{margin-right: 0;margin-bottom: 15px;}
+					>textarea{width: 100%;height: 185px;}
+					>a{height: 35px;top: 82%;left: 65%;font-size: 18px;;
+					}
+				}
+			}
+		}
+	}
+}
+// event
+.event{
+	>div{
+		>div{
+			>div:first-of-type{
+			>h2{margin-bottom: 0;font-size: 24px;}}
+			>div{
+				h2{font-size: 23px;}
+				#event-img1{height: 315px;}
+				}
+			>div:last-child{
+				.inner1{height: 145px;
+				.inner1-2{height: 145px;}
+				>div{padding: 0}
+				}
+			}
+		}
+	}
+}	
+// START COMMUNITY
+.community{
+	img{width: 100%;}
+	>h2{padding: 25px 0;}
+	>div{position: relative;
+		>form{top: 28%;left: 48%;
+		}
+	}
+}
+// mailing
+.mailing{
+	>div{
+		>div{
+			>div:first-child{margin: 20px 0;
+				>h3{margin: 5px 0;}
+			>h2{font-size: 28px;}}
+		}
+	}
+}
+// START EVENT
+.events-held{
+	>div{
+		>div{
+			>div:first-child{margin:63px 0;}
+			>div{
+				.coming-event{background-image:linear-gradient(rgba(0, 0, 0, 0.685)),url(img/event1.png);height: 467px;background-repeat: no-repeat;background-size: cover;
+						>div{padding: 61px 48px 98px 53px;
+						}
+					}
+				}
+			>div:last-child{
+				>div{padding: 55px 76px;}
+					.inner1{height: 221px;}
+					.inner1-2{height: 221px;}
+					}
+				}
+			}
+		}
+//END EVENT
+// START MINING
+.mining{
+	 >div{
+		 >h2{margin: 5px 0;}
+		>div{margin-top: 63px;
+			>div{position: relative;margin-bottom: 63px;height: 275px;
+				>p{padding: 15px 20px 0;font-size: 19px;}
+				>img{width: 100%;height: 100%;object-fit: fill;outline: 2px solid #FFFFFF;outline-offset: -10px;}
+				>div{position: absolute;height: 100%;width: 94%;top:0;left:0;line-height: 1.6;padding: 50px 40px;background-color: rgba(0, 0, 0, 0.507);margin: 0 14px;color: white;
+					>h3{color: white;}
+				}
+			}
+		}
+	}
+}
+
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+
+	

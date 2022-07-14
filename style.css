@@ -1,0 +1,2185 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  overflow-x: hidden;
+  line-height: 1;
+  font-family: 'Akrobat-Bold';
+  scroll-behavior: smooth;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+section {
+  margin-bottom: 70px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 18px;
+  color: #F4525C;
+}
+
+h4 {
+  font-size: 24px;
+  padding-bottom: 3px;
+  color: white;
+}
+
+p {
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  font-size: 24px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.ZABC-nav {
+  height: 150px;
+  width: 100%;
+}
+
+.ZABC-nav .logo {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 60px;
+}
+
+.ZABC-nav .logo > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+}
+
+.ZABC-nav .logo > div > p {
+  color: #303960;
+  margin: auto;
+}
+
+.ZABC-nav .logo > div .home-logo > img {
+  width: 50px;
+  height: 50px;
+}
+
+.ZABC-nav .logo > div > h3 {
+  padding-left: 23px;
+  color: #13243D;
+  font-family: 'Akrobat-SemiBold';
+  line-height: 1.2;
+}
+
+.ZABC-nav .logo > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ZABC-nav .logo > ul > a {
+  width: 150px;
+  height: 50px;
+  color: #FFFFFF;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+}
+
+.ZABC-nav .logo > ul .nav-btn1 {
+  background-color: #303960;
+}
+
+.ZABC-nav .logo > ul .nav-btn2 {
+  background-color: #13243D;
+}
+
+.ZABC-nav .header {
+  height: 50px;
+  background-color: #F8F8F8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ZABC-nav .header .none-img {
+  display: none;
+}
+
+.ZABC-nav .header > input {
+  position: absolute;
+  visibility: hidden;
+  z-index: -1111;
+}
+
+.ZABC-nav .header > ul {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ZABC-nav .header > ul > li > a {
+  padding: 0 15px;
+  color: #13243D;
+  font-size: 18px;
+}
+
+.ZABC-nav .header > ul > li > a:hover {
+  color: #F4525C;
+}
+
+.ZABC-nav .header .show-menu-btn, .ZABC-nav .header .hide-menu-btn {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.ZABC-nav .header .show-menu-btn:hover, .ZABC-nav .header .hide-menu-btn:hover {
+  color: grey;
+}
+
+.ZABC-nav .header .show-menu-btn {
+  float: right;
+  line-height: 100px;
+}
+
+.billboard {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(19, 36, 61, 0.753)), to(rgba(19, 36, 61, 0.753))), url(./img/hero-image.png);
+  background-image: linear-gradient(rgba(19, 36, 61, 0.753), rgba(19, 36, 61, 0.753)), url(./img/hero-image.png);
+  height: 595px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.billboard h1 {
+  font-size: 64px;
+  font-family: 'Akrobat-SemiBold';
+  color: white;
+  line-height: 1.1;
+}
+
+.billboard h3 {
+  padding: 15px 35px;
+  background-color: white;
+  -webkit-box-shadow: 0 4px 4px #DEDEDE;
+          box-shadow: 0 4px 4px #DEDEDE;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.3;
+  margin: 0 0 20px 0;
+  color: #13243D;
+}
+
+.billboard > div > div > div > form {
+  width: 380px;
+  height: 100%;
+  background-color: whitesmoke;
+  line-height: 2;
+  border-radius: 4px;
+}
+
+.billboard > div > div > div > form > div {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.billboard > div > div > div > form > div > input {
+  background-color: #D9D9D9;
+  border: none;
+  width: 163px;
+  border-radius: 3px;
+  height: 30px;
+}
+
+.billboard > div > div > div > form > div ::-webkit-input-placeholder {
+  color: rgba(11, 31, 59, 0.747);
+  padding: 5px;
+}
+
+.billboard > div > div > div > form > div :-ms-input-placeholder {
+  color: rgba(11, 31, 59, 0.747);
+  padding: 5px;
+}
+
+.billboard > div > div > div > form > div ::-ms-input-placeholder {
+  color: rgba(11, 31, 59, 0.747);
+  padding: 5px;
+}
+
+.billboard > div > div > div > form > div ::placeholder {
+  color: rgba(11, 31, 59, 0.747);
+  padding: 5px;
+}
+
+.billboard > div > div > div > form > div .bill-input {
+  margin-right: 10px;
+}
+
+.billboard > div > div > div > form > div:last-child {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.billboard > div > div > div > form > div:last-child > input {
+  width: 235px;
+  padding: 0;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.billboard > div > div > div > form > div:last-child > a {
+  width: 91px;
+  background-color: #13243D;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 14px;
+  height: 30px;
+}
+
+.about {
+  color: #13243D;
+}
+
+.about p {
+  -webkit-margin-start: 75px;
+          margin-inline-start: 75px;
+}
+
+.about > div > div > div:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 1.5;
+}
+
+.about > div > div > div:first-child > h3 {
+  border-right: 8px solid #F4525C;
+}
+
+.about > div > div > div:first-child > h2 {
+  border-right: 8px solid #F4525C;
+}
+
+.member {
+  text-align: center;
+  background: #F8F8F8;
+  padding-top: 54px;
+  color: #13243D;
+}
+
+.member > div > p {
+  padding: 20px 0 70px;
+}
+
+.member > div > h2 {
+  margin-top: 5px;
+}
+
+.member > div #join-btn {
+  color: white;
+  background-color: #303960;
+  font-size: 24px;
+  width: 160px;
+  height: 50px;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px 12px 50px auto;
+}
+
+.member > div > div > div > div {
+  background: #303960;
+  color: white;
+  height: 338px;
+  width: 338px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0 10px;
+}
+
+.member > div > div > div > div > p {
+  font-size: 21px;
+}
+
+.member > div > div > div > div > a > i {
+  color: white;
+}
+
+.member > div > div > div > div .number {
+  background-color: #F4525C;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: -7%;
+  left: -7%;
+}
+
+.invest > div > h2, .invest > div h3, .invest > div p {
+  text-align: center;
+}
+
+.invest > div > h2 {
+  line-height: 1.3;
+}
+
+.invest > div > p {
+  padding: 20px 0 60px;
+}
+
+.invest > div > div > div #div1 {
+  background-color: #303960;
+  padding: 48px 60px 57px;
+  color: white;
+  height: 100%;
+}
+
+.invest > div > div > div #div1 > h2 {
+  line-height: 1.2;
+  margin-bottom: 35px;
+}
+
+.invest > div > div > div #div1 > h2 > span {
+  color: #F4525C;
+}
+
+.invest > div > div > div #div1 > a {
+  padding: 10px 18px;
+  color: white;
+  border: 2px solid white;
+}
+
+.invest > div > div #div2 {
+  background-color: #13243D;
+}
+
+.invest > div > div #div2 > form {
+  padding: 37px 45px;
+}
+
+.invest > div > div #div2 > form > input {
+  width: 220px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+}
+
+.invest > div > div #div2 > form .details {
+  margin-right: 15px;
+}
+
+.invest > div > div #div2 > form > textarea {
+  width: 460px;
+  height: 240px;
+  margin-top: 20px;
+  border-radius: 4px;
+  border: none;
+}
+
+.invest > div > div #div2 > form ::-webkit-input-placeholder {
+  padding: 9px;
+  color: #B0B0B0;
+}
+
+.invest > div > div #div2 > form :-ms-input-placeholder {
+  padding: 9px;
+  color: #B0B0B0;
+}
+
+.invest > div > div #div2 > form ::-ms-input-placeholder {
+  padding: 9px;
+  color: #B0B0B0;
+}
+
+.invest > div > div #div2 > form ::placeholder {
+  padding: 9px;
+  color: #B0B0B0;
+}
+
+.invest > div > div #div2 > form > a {
+  width: 92px;
+  height: 36px;
+  color: white;
+  background-color: #303960;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 4px;
+  position: absolute;
+  top: 78%;
+  left: 72%;
+  font-size: 21px;
+}
+
+.event > div > div > div:first-of-type {
+  line-height: 1.2;
+}
+
+.event > div > div > div {
+  position: relative;
+}
+
+.event > div > div > div #event-img1 {
+  outline: 1px solid #FFFFFF;
+  outline-offset: -10px;
+  width: 100%;
+  outline-style: double;
+  height: 381px;
+}
+
+.event > div > div > div .events-inner1 {
+  position: absolute;
+  top: 8%;
+  left: 20%;
+  color: white;
+  line-height: 1.5;
+}
+
+.event > div > div > div .events-inner1 > h3 {
+  color: white;
+}
+
+.event > div > div > div:last-child .inner1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.555))), url(img/event2.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.555)), url(img/event2.png);
+  height: 180px;
+  border-radius: 3px;
+}
+
+.event > div > div > div:last-child .inner1 h3 {
+  color: white;
+}
+
+.event > div > div > div:last-child .inner1-2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.555))), url(img/event3.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.555)), url(img/event3.png);
+  height: 180px;
+  margin-top: 22px;
+}
+
+.event > div > div > div:last-child > div {
+  outline: 1px solid #FFFFFF;
+  outline-offset: -8px;
+  outline-style: double;
+  line-height: 1.5;
+  color: white;
+  padding: 25px 56px;
+}
+
+.community {
+  background-color: #F8F8F8;
+}
+
+.community > h2 {
+  text-align: center;
+  padding: 35px 0;
+}
+
+.community > div {
+  position: relative;
+}
+
+.community > div > form {
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  width: 380px;
+  height: 220px;
+  background-color: whitesmoke;
+  line-height: 2;
+  border-radius: 4px;
+}
+
+.community > div > form > h3 {
+  padding: 15px 35px;
+  background-color: white;
+  -webkit-box-shadow: 0 4px 4px #DEDEDE;
+          box-shadow: 0 4px 4px #DEDEDE;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.3;
+  margin: 0 0 20px 0;
+  color: #13243D;
+}
+
+.community > div > form > div {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.community > div > form > div > input {
+  background-color: #D9D9D9;
+  border: none;
+  width: 163px;
+  border-radius: 3px;
+  height: 30px;
+}
+
+.community > div > form > div ::-webkit-input-placeholder {
+  color: #13243D;
+  padding: 5px;
+}
+
+.community > div > form > div :-ms-input-placeholder {
+  color: #13243D;
+  padding: 5px;
+}
+
+.community > div > form > div ::-ms-input-placeholder {
+  color: #13243D;
+  padding: 5px;
+}
+
+.community > div > form > div ::placeholder {
+  color: #13243D;
+  padding: 5px;
+}
+
+.community > div > form > div .bill-input {
+  margin-right: 10px;
+}
+
+.community > div > form > div:last-child {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.community > div > form > div:last-child > input {
+  width: 235px;
+  padding: 0;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.community > div > form > div:last-child > a {
+  width: 91px;
+  background-color: #13243D;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 14px;
+  height: 30px;
+}
+
+.mailing > div > div > div:first-child {
+  line-height: 1.2;
+}
+
+.mailing > div > div > div:last-child {
+  margin-top: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mailing > div > div > div:last-child > input {
+  background-color: #303960;
+  border: none;
+  height: 50px;
+  width: 300px;
+  padding: 0;
+}
+
+.mailing > div > div > div:last-child ::-webkit-input-placeholder {
+  padding-left: 15px;
+  color: white;
+}
+
+.mailing > div > div > div:last-child :-ms-input-placeholder {
+  padding-left: 15px;
+  color: white;
+}
+
+.mailing > div > div > div:last-child ::-ms-input-placeholder {
+  padding-left: 15px;
+  color: white;
+}
+
+.mailing > div > div > div:last-child ::placeholder {
+  padding-left: 15px;
+  color: white;
+}
+
+.mailing > div > div > div:last-child > a {
+  background-color: #13243D;
+  height: 50px;
+  width: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-size: 21px;
+}
+
+.footer {
+  background-color: #13243D;
+  padding: 56px 0 80px;
+}
+
+.footer > div > div {
+  padding: 0 95px;
+}
+
+.footer > div > div > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 1.3;
+}
+
+.footer > div > div > div > h4 {
+  padding-bottom: 13px;
+}
+
+.footer > div > div > div > a {
+  font-size: 14px;
+  color: white;
+}
+
+.footer > div > p {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 79px;
+}
+
+.companies > div > div > div:first-child {
+  margin-bottom: 65px;
+}
+
+.companies > div > div > div:first-child > h2 {
+  color: #363636;
+  margin-top: 22px;
+}
+
+.companies > div > div .companies-inner {
+  margin-top: 63px;
+}
+
+.companies > div > div > div > form {
+  margin: 22px 56px 0;
+}
+
+.companies > div > div > div > form select {
+  font-size: 24px;
+  width: 290px;
+  height: 50px;
+  padding: 0 3px;
+}
+
+.companies > div > div > div .card {
+  background-color: #303960;
+  width: 300px;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0 24px;
+  margin-bottom: 65px;
+}
+
+.companies > div > div > div .card > img {
+  height: 72px;
+  width: 252px;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+.companies > div > div > div .card > h3 {
+  color: white;
+  line-height: 1.3;
+}
+
+.companies > div > div > div .card > a {
+  background: white;
+  width: 144px;
+  height: 42px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #303960;
+  font-size: 18px;
+}
+
+.companies > div > div > div .card .puma-logo {
+  width: 235px;
+  height: 41px;
+}
+
+.companies > div > div > div .card .zuva-logo {
+  width: 211px;
+  height: 97px;
+}
+
+.events-held > div > div > div:first-child {
+  margin: 63px 0;
+}
+
+.events-held > div > div > div .coming-event {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.685))), url(img/event1.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.685)), url(img/event1.png);
+  height: 467px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.events-held > div > div > div .coming-event > div {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 61px 48px 98px 53px;
+  outline: 1px solid #FFFFFF;
+  outline-offset: -15px;
+  outline-style: double;
+  height: 100%;
+}
+
+.events-held > div > div > div .coming-event > div > h3 {
+  margin: 15px 0;
+}
+
+.events-held > div > div > div .coming-event > div > p {
+  color: #F4525C;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.events-held > div > div > div .coming-event > div > p > a {
+  color: #F4525C;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.events-held > div > div > div:last-child > div {
+  padding: 55px 76px;
+}
+
+.events-held > div > div > div:last-child .inner1 {
+  height: 221px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.events-held > div > div > div:last-child .inner1-2 {
+  height: 221px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mining > div > h2 {
+  margin: 5px 0;
+}
+
+.mining > div > div {
+  margin-top: 63px;
+}
+
+.mining > div > div > div {
+  position: relative;
+  margin-bottom: 48px;
+  height: 275px;
+}
+
+.mining > div > div > div > p {
+  padding: 25px 59px 0;
+  font-size: 19px;
+}
+
+.mining > div > div > div > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+  outline: 2px solid #FFFFFF;
+  outline-offset: -11px;
+}
+
+.mining > div > div > div > div {
+  position: absolute;
+  height: 100%;
+  width: 95%;
+  top: 0;
+  left: 0;
+  line-height: 1.6;
+  padding: 60px 80px;
+  background-color: rgba(0, 0, 0, 0.507);
+  margin: 0 14px;
+  color: white;
+}
+
+.mining > div > div > div > div > h3 {
+  color: white;
+}
+
+@media (max-width: 575px) {
+  section {
+    margin-bottom: 50px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  h4 {
+    font-size: 20px;
+    padding-bottom: 3px;
+  }
+  p {
+    font-size: 18px;
+  }
+  a {
+    font-size: 20px;
+  }
+  .ZABC-nav {
+    height: 100px;
+  }
+  .ZABC-nav .logo {
+    display: none;
+  }
+  .ZABC-nav .header {
+    padding: 0 25px;
+    height: 100%;
+  }
+  .ZABC-nav .header .none-img {
+    display: block;
+    -o-object-fit: contain;
+       object-fit: contain;
+    margin: auto 0;
+  }
+  .ZABC-nav .header > input:checked ~ .menu {
+    right: 0;
+    z-index: 123;
+  }
+  .ZABC-nav .header > ul {
+    position: fixed;
+    padding: 50px 15px;
+    width: 100%;
+    height: 100vh;
+    right: -100%;
+    top: 0;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+    background: #f8f8f8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .ZABC-nav .header > ul > a {
+    display: block;
+    padding: 20px;
+    color: white;
+  }
+  .ZABC-nav .header > ul > a:hover {
+    color: maroon;
+  }
+  .ZABC-nav .header .show-menu-btn, .ZABC-nav .header .hide-menu-btn {
+    display: block;
+    margin-left: auto;
+  }
+  .ZABC-nav .header .hide-menu-btn {
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    color: #13243D;
+  }
+  .billboard {
+    height: 565px;
+  }
+  .billboard h1 {
+    font-size: 34px;
+    margin-bottom: 65px;
+    text-align: center;
+  }
+  .billboard h3 {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  .billboard > div > div > div > form {
+    width: 100%;
+    margin: auto;
+  }
+  .billboard > div > div > div > form > div {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0 5px;
+  }
+  .billboard > div > div > div > form > div > input {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .billboard > div > div > div > form > div:last-child {
+    margin-bottom: 15px;
+  }
+  .billboard > div > div > div > form > div:last-child > input {
+    width: 100%;
+  }
+  .billboard > div > div > div > form > div:last-child > a {
+    width: 91px;
+  }
+  .about {
+    text-align: center;
+  }
+  .about p {
+    -webkit-margin-start: 0;
+            margin-inline-start: 0;
+  }
+  .about > div > div > div:first-child {
+    line-height: 1.2;
+  }
+  .about > div > div > div:first-child > h3 {
+    border-right: none;
+  }
+  .about > div > div > div:first-child > h2 {
+    border-right: none;
+  }
+  .about > div > div > div:first-child > h2::after {
+    content: '';
+    width: 70px;
+    height: 2px;
+    background-color: red;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 10px auto;
+  }
+  .member {
+    padding-top: 30px;
+  }
+  .member .office-img {
+    width: 100%;
+    height: 230px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .member > div {
+    margin: 0 auto;
+  }
+  .member > div > p {
+    padding: 20px 0 50px;
+  }
+  .member > div > h2 {
+    margin-top: 5px;
+  }
+  .member > div #join-btn {
+    font-size: 21px;
+    width: 150px;
+    height: 50px;
+    margin: 50px auto;
+  }
+  .member > div > div > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .member > div > div > div > div {
+    height: 330px;
+    width: 290px;
+    margin-bottom: 25px;
+  }
+  .member > div > div > div > div > p {
+    font-size: 18px;
+  }
+  .member > div > div > div > div .number {
+    top: -5%;
+    left: -3%;
+  }
+  .invest > div > div > div #div1 {
+    padding: 25px 15px 50px;
+  }
+  .invest > div > div #div2 > form {
+    padding: 20px 15px;
+  }
+  .invest > div > div #div2 > form > input {
+    width: 100%;
+  }
+  .invest > div > div #div2 > form .details {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .invest > div > div #div2 > form > textarea {
+    width: 100%;
+  }
+  .invest > div > div #div2 > form > a {
+    height: 40px;
+    top: 82%;
+    left: 65%;
+  }
+  .event > div > div > div:first-of-type {
+    text-align: center;
+    line-height: 1.5;
+  }
+  .event > div > div > div:first-of-type > h2 {
+    margin-bottom: 10px;
+  }
+  .event > div > div > div #event-img1 {
+    height: 360px;
+    margin-bottom: 20px;
+  }
+  .community > h2 {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+  .community > div > img {
+    width: 100%;
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .community > div > form {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 2;
+    margin: 25px 0;
+  }
+  .community > div > form > h3 {
+    padding: 15px;
+  }
+  .mailing > div > div > div:first-child {
+    margin: 20px 0;
+  }
+  .mailing > div > div > div:first-child > h3 {
+    margin: 5px 0;
+  }
+  .mailing > div > div > div:first-child > h2 {
+    font-size: 28px;
+  }
+  .footer {
+    padding: 35px 0 40px;
+  }
+  .footer > div > div {
+    padding: 0 40px;
+  }
+  .footer > div > div > div {
+    margin-bottom: 20px;
+  }
+  .footer > div > div > div > h4 {
+    padding-bottom: 10px;
+  }
+  .footer > div > div > div > a {
+    font-size: 15px;
+  }
+  .footer > div > p {
+    padding-top: 25px;
+  }
+  .companies > div > div > div:first-child {
+    margin-bottom: 25px;
+    text-align: left;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .companies > div > div > div:first-child > h2 {
+    margin-top: 5px;
+  }
+  .companies > div > div > div:nth-child(2) {
+    display: block;
+    margin: 5px;
+  }
+  .companies > div > div > div:nth-child(2) > form {
+    margin: 0;
+    margin-bottom: 30px;
+    text-align: left;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .companies > div > div > div:nth-child(2) > form select {
+    font-size: 19px;
+    width: 252px;
+    height: 50px;
+    padding: 0 5px;
+  }
+  .companies > div > div > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .companies > div > div > div .card {
+    text-align: center;
+  }
+  .companies > div > div > div .card > h3 {
+    line-height: 1.4;
+  }
+  .events-held > div > div > div:first-child {
+    margin: 30px 0;
+    text-align: left;
+  }
+  .events-held > div > div > div .coming-event {
+    height: 430px;
+    margin-bottom: 30px;
+  }
+  .events-held > div > div > div .coming-event > div {
+    padding: 45px 35px;
+  }
+  .events-held > div > div > div .coming-event > div > p {
+    font-size: 17px;
+  }
+  .events-held > div > div > div:last-child > div {
+    padding: 45px 35px;
+  }
+  .events-held > div > div > div:last-child .inner1 {
+    height: 200px;
+  }
+  .events-held > div > div > div:last-child .inner1-2 {
+    height: 200px;
+  }
+  .mining > div > h2 {
+    margin: 5px 0;
+  }
+  .mining > div > div {
+    margin-top: 8px;
+  }
+  .mining > div > div > div {
+    margin-bottom: 15px;
+    height: 250px;
+    margin-top: 30px;
+  }
+  .mining > div > div > div > p {
+    padding: 0 10px;
+    font-size: 18px;
+  }
+  .mining > div > div > div > img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: fill;
+       object-fit: fill;
+    outline: 2px solid #FFFFFF;
+    outline-offset: -10px;
+  }
+  .mining > div > div > div > div {
+    width: 92%;
+  }
+}
+
+@media (min-width: 568px) and (max-width: 767px) {
+  section {
+    margin-bottom: 60px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 20px;
+    padding-bottom: 3px;
+  }
+  p {
+    font-size: 18px;
+  }
+  a {
+    font-size: 18px;
+  }
+  .ZABC-nav {
+    height: 100px;
+  }
+  .ZABC-nav .logo {
+    display: none;
+  }
+  .ZABC-nav .header {
+    padding: 0 25px;
+    height: 100%;
+  }
+  .ZABC-nav .header .none-img {
+    display: block;
+    -o-object-fit: contain;
+       object-fit: contain;
+    margin: auto 0;
+  }
+  .ZABC-nav .header > input:checked ~ .menu {
+    right: 0;
+    z-index: 123;
+  }
+  .ZABC-nav .header > ul {
+    position: fixed;
+    padding: 45px 65px 0;
+    width: 100%;
+    height: 100vh;
+    right: -100%;
+    top: 0;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+    background: #f8f8f8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .ZABC-nav .header > ul > a {
+    display: block;
+    padding: 20px;
+    color: white;
+  }
+  .ZABC-nav .header > ul > a:hover {
+    color: maroon;
+  }
+  .ZABC-nav .header .show-menu-btn, .ZABC-nav .header .hide-menu-btn {
+    display: block;
+    margin-left: auto;
+  }
+  .ZABC-nav .header .hide-menu-btn {
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    color: #13243D;
+  }
+  .billboard {
+    height: 565px;
+  }
+  .billboard h1 {
+    font-size: 40px;
+    margin-bottom: 65px;
+    text-align: center;
+  }
+  .billboard h3 {
+    font-size: 18px;
+    padding: 20px 30px;
+  }
+  .billboard > div > div > div > form {
+    width: 80%;
+    margin: auto;
+  }
+  .billboard > div > div > div > form > div {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0 5px;
+  }
+  .billboard > div > div > div > form > div > input {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .billboard > div > div > div > form > div:last-child {
+    margin-bottom: 15px;
+  }
+  .billboard > div > div > div > form > div:last-child > input {
+    width: 100%;
+  }
+  .billboard > div > div > div > form > div:last-child > a {
+    width: 91px;
+  }
+  .about {
+    text-align: center;
+  }
+  .about p {
+    -webkit-margin-start: 0;
+            margin-inline-start: 0;
+  }
+  .about > div > div > div:first-child {
+    line-height: 1.2;
+  }
+  .about > div > div > div:first-child > h3 {
+    border-right: none;
+  }
+  .about > div > div > div:first-child > h2 {
+    border-right: none;
+  }
+  .about > div > div > div:first-child > h2::after {
+    content: '';
+    width: 70px;
+    height: 2px;
+    background-color: red;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 10px auto;
+  }
+  .member {
+    padding-top: 30px;
+  }
+  .member .office-img {
+    width: 100%;
+    height: 275px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .member > div {
+    margin: 0 auto;
+  }
+  .member > div > p {
+    padding: 20px 0 50px;
+  }
+  .member > div > h2 {
+    margin-top: 5px;
+  }
+  .member > div #join-btn {
+    font-size: 21px;
+    width: 150px;
+    height: 50px;
+    margin: 0 auto 50px;
+  }
+  .member > div > div > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .member > div > div > div > div {
+    height: 330px;
+    width: 430px;
+    margin-bottom: 40px;
+  }
+  .member > div > div > div > div > h2 {
+    font-size: 35px;
+  }
+  .member > div > div > div > div > p {
+    font-size: 18px;
+    padding: 0 30px;
+  }
+  .member > div > div > div > div .number {
+    top: -5%;
+    left: -3%;
+  }
+  .invest > div > div > div #div1 {
+    padding: 40px 15px 70px;
+  }
+  .invest > div > div > div #div1 > h2 {
+    margin-bottom: 50px;
+  }
+  .invest > div > div #div2 > form {
+    padding: 20px 15px;
+  }
+  .invest > div > div #div2 > form > input {
+    width: 100%;
+  }
+  .invest > div > div #div2 > form .details {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .invest > div > div #div2 > form > textarea {
+    width: 100%;
+  }
+  .invest > div > div #div2 > form > a {
+    height: 40px;
+    top: 82%;
+    left: 76%;
+    font-size: 19px;
+  }
+  .event > div > div > div:first-of-type {
+    text-align: center;
+    line-height: 1.5;
+  }
+  .event > div > div > div:first-of-type > h2 {
+    margin-bottom: 15px;
+  }
+  .event > div > div > div .inner1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+  }
+  .event > div > div > div #event-img1 {
+    height: 360px;
+    margin-bottom: 20px;
+  }
+  .community > h2 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  .community > div > img {
+    width: 100%;
+    height: 320px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .community > div > form {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 380px;
+    height: 220px;
+    background-color: whitesmoke;
+    line-height: 2;
+    border-radius: 4px;
+  }
+  .community > div > form > h3 {
+    font-size: 19px;
+  }
+  .mailing > div > div > div:first-child {
+    margin: 20px 0;
+  }
+  .mailing > div > div > div:first-child > h3 {
+    margin: 5px 0;
+  }
+  .mailing > div > div > div:first-child > h2 {
+    font-size: 28px;
+  }
+  .footer {
+    padding: 35px 0 40px;
+  }
+  .footer > div > div {
+    padding: 0 10px;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .footer > div > div > div {
+    margin-bottom: 20px;
+  }
+  .footer > div > div > div > a {
+    font-size: 14px;
+  }
+  .footer > div > p {
+    padding-top: 10px;
+  }
+  .companies > div > div > div:first-child {
+    margin-bottom: 25px;
+    text-align: left;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .companies > div > div > div:first-child > h2 {
+    margin-top: 5px;
+  }
+  .companies > div > div > div:nth-child(2) {
+    display: block;
+    margin: 5px;
+  }
+  .companies > div > div > div:nth-child(2) > form {
+    margin: 0;
+    margin-bottom: 30px;
+    text-align: left;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .companies > div > div > div:nth-child(2) > form select {
+    font-size: 19px;
+    width: 252px;
+    height: 50px;
+    padding: 0 5px;
+  }
+  .companies > div > div > div .card {
+    text-align: center;
+    width: 500px;
+  }
+  .events-held > div > div > div:first-child {
+    margin: 30px 0;
+    text-align: left;
+  }
+  .events-held > div > div > div .coming-event {
+    height: 400px;
+    margin-bottom: 30px;
+  }
+  .events-held > div > div > div .coming-event > div {
+    padding: 45px 35px;
+  }
+  .events-held > div > div > div:last-child > div {
+    padding: 45px 35px;
+  }
+  .events-held > div > div > div:last-child .inner1 {
+    height: 200px;
+  }
+  .events-held > div > div > div:last-child .inner1-2 {
+    height: 200px;
+  }
+  .mining > div > h2 {
+    margin: 5px 0;
+  }
+  .mining > div > div {
+    margin-top: 5px;
+  }
+  .mining > div > div > div {
+    margin-bottom: 15px;
+    height: 250px;
+    margin-top: 30px;
+  }
+  .mining > div > div > div > p {
+    padding: 0 10px;
+    font-size: 18px;
+  }
+  .mining > div > div > div > img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: fill;
+       object-fit: fill;
+    outline: 2px solid #FFFFFF;
+    outline-offset: -10px;
+  }
+  .mining > div > div > div > div {
+    width: 95%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  section {
+    margin-bottom: 70px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  h4 {
+    font-size: 20px;
+    padding-bottom: 3px;
+  }
+  p {
+    font-size: 18px;
+  }
+  a {
+    font-size: 20px;
+  }
+  .ZABC-nav .logo {
+    padding: 0 30px;
+  }
+  .ZABC-nav .logo > ul > a {
+    width: 130px;
+    height: 45px;
+    font-size: 15px;
+  }
+  .ZABC-nav .header {
+    height: 50px;
+    background-color: #F8F8F8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .ZABC-nav .header > input {
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+  }
+  .ZABC-nav .header > ul {
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .ZABC-nav .header > ul > li > a {
+    padding: 0 8px;
+    color: #13243D;
+    font-size: 15px;
+  }
+  .ZABC-nav .header > ul > li > a:hover {
+    color: #F4525C;
+  }
+  .ZABC-nav .header .show-menu-btn, .ZABC-nav .header .hide-menu-btn {
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+  }
+  .ZABC-nav .header .show-menu-btn:hover, .ZABC-nav .header .hide-menu-btn:hover {
+    color: grey;
+  }
+  .ZABC-nav .header .show-menu-btn {
+    float: right;
+    line-height: 100px;
+  }
+  .billboard {
+    height: 500px;
+  }
+  .billboard h1 {
+    font-size: 46px;
+    margin-bottom: 65px;
+  }
+  .billboard h3 {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  .billboard > div > div > div > form {
+    width: 100%;
+    margin: auto;
+  }
+  .billboard > div > div > div > form > div {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0 5px;
+  }
+  .billboard > div > div > div > form > div > input {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .about {
+    color: #13243D;
+  }
+  .about p {
+    -webkit-margin-start: 15px;
+            margin-inline-start: 15px;
+  }
+  .about > div > div > div:first-child {
+    line-height: 1.3;
+  }
+  .about > div > div > div:first-child > h3 {
+    border-right: 6px solid #F4525C;
+  }
+  .about > div > div > div:first-child > h2 {
+    border-right: 6px solid #F4525C;
+  }
+  .member {
+    padding-top: 30px;
+  }
+  .member > div > p {
+    padding: 20px 0 40px;
+  }
+  .member > div #join-btn {
+    font-size: 20px;
+    margin: 50px auto;
+  }
+  .member > div > div > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .member > div > div > div > div {
+    height: 275px;
+    width: 338px;
+  }
+  .member > div > div > div > div > p {
+    font-size: 15px;
+  }
+  .member > div > div > div > div .number {
+    top: -5%;
+    left: -3%;
+  }
+  .member > img {
+    width: 100%;
+  }
+  .invest > div > p {
+    padding: 10px 0 45px;
+  }
+  .invest > div > div > div #div1 {
+    padding: 25px 15px;
+  }
+  .invest > div > div > div #div1 > h2 {
+    margin-bottom: 80px;
+    font-size: 30px;
+  }
+  .invest > div > div #div2 > form {
+    padding: 20px 15px;
+  }
+  .invest > div > div #div2 > form > input {
+    width: 100%;
+  }
+  .invest > div > div #div2 > form .details {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .invest > div > div #div2 > form > textarea {
+    width: 100%;
+    height: 185px;
+  }
+  .invest > div > div #div2 > form > a {
+    height: 35px;
+    top: 82%;
+    left: 65%;
+    font-size: 18px;
+  }
+  .event > div > div > div:first-of-type > h2 {
+    margin-bottom: 0;
+    font-size: 24px;
+  }
+  .event > div > div > div h2 {
+    font-size: 23px;
+  }
+  .event > div > div > div #event-img1 {
+    height: 315px;
+  }
+  .event > div > div > div:last-child .inner1 {
+    height: 145px;
+  }
+  .event > div > div > div:last-child .inner1 .inner1-2 {
+    height: 145px;
+  }
+  .event > div > div > div:last-child .inner1 > div {
+    padding: 0;
+  }
+  .community img {
+    width: 100%;
+  }
+  .community > h2 {
+    padding: 25px 0;
+  }
+  .community > div {
+    position: relative;
+  }
+  .community > div > form {
+    top: 28%;
+    left: 48%;
+  }
+  .mailing > div > div > div:first-child {
+    margin: 0;
+  }
+  .mailing > div > div > div:first-child > h3 {
+    margin: 5px 0;
+  }
+  .mailing > div > div > div:first-child > h2 {
+    font-size: 22px;
+  }
+  .mailing > div > div > div:last-child {
+    margin-left: auto;
+  }
+  .companies > div > div > div:first-child {
+    margin-bottom: 65px;
+  }
+  .companies > div > div > div:first-child > h2 {
+    color: #363636;
+    margin-top: 22px;
+  }
+  .companies > div > div .companies-inner {
+    margin-top: 63px;
+  }
+  .companies > div > div > div > form {
+    margin: 22px 56px 0;
+  }
+  .companies > div > div > div > form select {
+    font-size: 24px;
+    width: 290px;
+    height: 50px;
+    padding: 0 3px;
+  }
+  .companies > div > div > div .card {
+    width: 200px;
+    height: 300px;
+    padding: 0 15px;
+    text-align: center;
+  }
+  .companies > div > div > div .card > img, .companies > div > div > div .card .zuva-logo {
+    width: 170px;
+    height: 60px;
+  }
+  .events-held > div > div > div:first-child {
+    margin: 30px 0;
+  }
+  .events-held > div > div > div .coming-event {
+    height: 420px;
+  }
+  .events-held > div > div > div .coming-event > div {
+    padding: 45px 25px 60px 30px;
+  }
+  .events-held > div > div > div .coming-event > div > h3 {
+    margin: 15px 0;
+  }
+  .events-held > div > div > div .coming-event > div > p {
+    font-size: 18px;
+  }
+  .events-held > div > div > div:last-child > div {
+    padding: 35px 55px;
+  }
+  .events-held > div > div > div:last-child .inner1 {
+    height: 200px;
+  }
+  .events-held > div > div > div:last-child .inner1-2 {
+    height: 200px;
+  }
+  .mining > div > h2 {
+    margin: 5px 0;
+  }
+  .mining > div > div {
+    margin-top: 63px;
+  }
+  .mining > div > div > div {
+    position: relative;
+    margin-bottom: 63px;
+    height: 275px;
+  }
+  .mining > div > div > div > p {
+    padding: 15px 10px;
+    font-size: 17px;
+  }
+  .mining > div > div > div > img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: fill;
+       object-fit: fill;
+    outline: 2px solid #FFFFFF;
+    outline-offset: -10px;
+  }
+  .mining > div > div > div > div {
+    width: 92%;
+    padding: 45px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  section {
+    margin-bottom: 60px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  h4 {
+    font-size: 20px;
+    padding-bottom: 3px;
+  }
+  p {
+    font-size: 18px;
+  }
+  a {
+    font-size: 20px;
+  }
+  .billboard {
+    height: 500px;
+  }
+  .billboard h1 {
+    font-size: 46px;
+    margin-bottom: 65px;
+  }
+  .billboard h3 {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  .billboard > div > div > div > form {
+    width: 100%;
+    margin: auto;
+  }
+  .billboard > div > div > div > form > div {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0 5px;
+  }
+  .billboard > div > div > div > form > div > input {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .about {
+    color: #13243D;
+  }
+  .about p {
+    -webkit-margin-start: 15px;
+            margin-inline-start: 15px;
+  }
+  .about > div > div > div:first-child {
+    line-height: 1.3;
+  }
+  .about > div > div > div:first-child > h3 {
+    border-right: 6px solid #F4525C;
+  }
+  .about > div > div > div:first-child > h2 {
+    border-right: 6px solid #F4525C;
+  }
+  .member {
+    padding-top: 30px;
+  }
+  .member > div > p {
+    padding: 20px 0 40px;
+  }
+  .member > div #join-btn {
+    font-size: 20px;
+    margin: 50px auto;
+  }
+  .member > div > div > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .member > div > div > div > div {
+    height: 275px;
+    width: 338px;
+  }
+  .member > div > div > div > div > p {
+    font-size: 15px;
+  }
+  .member > div > div > div > div .number {
+    top: -5%;
+    left: -3%;
+  }
+  .member > img {
+    width: 100%;
+  }
+  .invest > div > p {
+    padding: 10px 0 45px;
+  }
+  .invest > div > div > div #div1 {
+    padding: 25px 15px;
+  }
+  .invest > div > div > div #div1 > h2 {
+    margin-bottom: 60px;
+    font-size: 31px;
+  }
+  .invest > div > div #div2 > form {
+    padding: 20px 15px;
+  }
+  .invest > div > div #div2 > form > input {
+    width: 100%;
+  }
+  .invest > div > div #div2 > form .details {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .invest > div > div #div2 > form > textarea {
+    width: 100%;
+    height: 185px;
+  }
+  .invest > div > div #div2 > form > a {
+    height: 35px;
+    top: 82%;
+    left: 65%;
+    font-size: 18px;
+  }
+  .event > div > div > div:first-of-type > h2 {
+    margin-bottom: 0;
+    font-size: 24px;
+  }
+  .event > div > div > div h2 {
+    font-size: 23px;
+  }
+  .event > div > div > div #event-img1 {
+    height: 315px;
+  }
+  .event > div > div > div:last-child .inner1 {
+    height: 145px;
+  }
+  .event > div > div > div:last-child .inner1 .inner1-2 {
+    height: 145px;
+  }
+  .event > div > div > div:last-child .inner1 > div {
+    padding: 0;
+  }
+  .community img {
+    width: 100%;
+  }
+  .community > h2 {
+    padding: 25px 0;
+  }
+  .community > div {
+    position: relative;
+  }
+  .community > div > form {
+    top: 28%;
+    left: 48%;
+  }
+  .mailing > div > div > div:first-child {
+    margin: 20px 0;
+  }
+  .mailing > div > div > div:first-child > h3 {
+    margin: 5px 0;
+  }
+  .mailing > div > div > div:first-child > h2 {
+    font-size: 28px;
+  }
+  .events-held > div > div > div:first-child {
+    margin: 63px 0;
+  }
+  .events-held > div > div > div .coming-event {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.685))), url(img/event1.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.685)), url(img/event1.png);
+    height: 467px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .events-held > div > div > div .coming-event > div {
+    padding: 61px 48px 98px 53px;
+  }
+  .events-held > div > div > div:last-child > div {
+    padding: 55px 76px;
+  }
+  .events-held > div > div > div:last-child .inner1 {
+    height: 221px;
+  }
+  .events-held > div > div > div:last-child .inner1-2 {
+    height: 221px;
+  }
+  .mining > div > h2 {
+    margin: 5px 0;
+  }
+  .mining > div > div {
+    margin-top: 63px;
+  }
+  .mining > div > div > div {
+    position: relative;
+    margin-bottom: 63px;
+    height: 275px;
+  }
+  .mining > div > div > div > p {
+    padding: 15px 20px 0;
+    font-size: 19px;
+  }
+  .mining > div > div > div > img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: fill;
+       object-fit: fill;
+    outline: 2px solid #FFFFFF;
+    outline-offset: -10px;
+  }
+  .mining > div > div > div > div {
+    position: absolute;
+    height: 100%;
+    width: 94%;
+    top: 0;
+    left: 0;
+    line-height: 1.6;
+    padding: 50px 40px;
+    background-color: rgba(0, 0, 0, 0.507);
+    margin: 0 14px;
+    color: white;
+  }
+  .mining > div > div > div > div > h3 {
+    color: white;
+  }
+}
+/*# sourceMappingURL=style.css.map */
